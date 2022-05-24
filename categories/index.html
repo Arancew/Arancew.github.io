@@ -7,16 +7,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="Arance的博客">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <meta name="description" content="Arance的博客">
+  
+    <meta name="description" content="Arance的博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="分类">
 <meta property="og:url" content="http://example.com/categories/index.html">
@@ -26,41 +26,65 @@
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+  
   <title>分类 - Arance</title>
 
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
 
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
 
 
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
 
 
 <link  rel="stylesheet" href="/css/main.css" />
 
-<!-- 自定义样式保持在最底部 -->
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
 
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"pwe7xMxRmMCjRBcR8giVtbz9-gzGzoHsz","app_key":"mKXiVXzWIodSCDJ5V5A0BzmK","server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.0","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
+
+  
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
 <body>
-  <header style="height: 60vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 60vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Arance的博客</strong>
+      <strong>Fluid</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -114,6 +138,18 @@
           
           
             <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
                 关于
@@ -127,6 +163,7 @@
               &nbsp;<i class="iconfont icon-search"></i>&nbsp;
             </a>
           </li>
+          
         
         
           <li class="nav-item" id="color-toggle-btn">
@@ -139,29 +176,35 @@
   </div>
 </nav>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="分类">
-              
-            </span>
+  
 
-            
-          </div>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="分类"></span>
           
         </div>
+
+        
       </div>
+
+      
     </div>
+  </div>
+</div>
+
+</div>
+
   </header>
 
   <main>
     
       <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
+        <div id="board"
           >
           
           <div class="container">
@@ -176,24 +219,27 @@
 <div class="category-list">
   
   
-  
-  
     
     
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="大三上"
         id="heading-e99e194bda81b58e44103f89e832a720" role="tab" data-toggle="collapse" href="#collapse-e99e194bda81b58e44103f89e832a720"
         aria-expanded="false"
       >
         大三上
+        <span class="list-group-count"></span>
         <i class="iconfont icon-arrowright"></i>
       </a>
-      <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8A/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>11</span>
-      </a>
-      <div class="category-collapse collapse" id="collapse-e99e194bda81b58e44103f89e832a720" role="tabpanel" aria-labelledby="heading-e99e194bda81b58e44103f89e832a720">
+      
+        <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8A/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>11</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-e99e194bda81b58e44103f89e832a720"
+           role="tabpanel" aria-labelledby="heading-e99e194bda81b58e44103f89e832a720">
         
         
           
@@ -202,70 +248,90 @@
     
       
       
-        <a href="/2022/01/13/%E7%AC%AC19%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/01/13/%E7%AC%AC19%E5%91%A8%E6%80%BB%E7%BB%93/" title="第19周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第19周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/01/02/%E7%AC%AC17%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/01/02/%E7%AC%AC17%E5%91%A8%E6%80%BB%E7%BB%93/" title="第17周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第17周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/12/19/%E7%AC%AC15%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/12/19/%E7%AC%AC15%E5%91%A8%E6%80%BB%E7%BB%93/" title="第15周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第15周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/12/12/%E7%AC%AC14%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/12/12/%E7%AC%AC14%E5%91%A8%E6%80%BB%E7%BB%93/" title="第14周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第14周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/12/05/%E7%AC%AC13%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/12/05/%E7%AC%AC13%E5%91%A8%E6%80%BB%E7%BB%93/" title="第13周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第13周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/11/28/%E7%AC%AC12%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/11/28/%E7%AC%AC12%E5%91%A8%E6%80%BB%E7%BB%93/" title="第12周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第12周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/11/21/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/11/21/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" title="第十一周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第十一周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/11/15/%E7%AC%AC10%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/11/15/%E7%AC%AC10%E5%91%A8%E6%80%BB%E7%BB%93/" title="第10周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第10周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/11/07/%E7%AC%AC%E4%B9%9D%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/11/07/%E7%AC%AC%E4%B9%9D%E5%91%A8%E6%80%BB%E7%BB%93/" title="第九周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第九周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/10/31/%E7%AC%AC%E5%85%AB%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2021/10/31/%E7%AC%AC%E5%85%AB%E5%91%A8%E6%80%BB%E7%BB%93/" title="第八周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第八周总结</span>
         </a>
       
@@ -284,20 +350,25 @@
   
     
     
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="大三下"
         id="heading-d2b758257a76b885581521e6c36b61f6" role="tab" data-toggle="collapse" href="#collapse-d2b758257a76b885581521e6c36b61f6"
         aria-expanded="false"
       >
         大三下
+        <span class="list-group-count"></span>
         <i class="iconfont icon-arrowright"></i>
       </a>
-      <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>9</span>
-      </a>
-      <div class="category-collapse collapse" id="collapse-d2b758257a76b885581521e6c36b61f6" role="tabpanel" aria-labelledby="heading-d2b758257a76b885581521e6c36b61f6">
+      
+        <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>10</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-d2b758257a76b885581521e6c36b61f6"
+           role="tabpanel" aria-labelledby="heading-d2b758257a76b885581521e6c36b61f6">
         
         
           
@@ -306,63 +377,90 @@
     
       
       
-        <a href="/2022/05/06/%E7%AC%AC10%E5%91%A8%E6%80%BB%E7%BB%93-1/" class="list-group-item list-group-item-action">
+        <a href="/2022/05/24/%E7%AC%AC12%E5%91%A8%E6%80%BB%E7%BB%93-1/" title="第12周总结"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">第12周总结</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2022/05/06/%E7%AC%AC10%E5%91%A8%E6%80%BB%E7%BB%93-1/" title="第10周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第10周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/05/02/%E7%AC%AC9%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/05/02/%E7%AC%AC9%E5%91%A8%E6%80%BB%E7%BB%93/" title="第9周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第9周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/04/27/%E7%AC%AC8%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/04/27/%E7%AC%AC8%E5%91%A8%E6%80%BB%E7%BB%93/" title="第8周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第8周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/04/18/%E7%AC%AC7%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/04/18/%E7%AC%AC7%E5%91%A8%E6%80%BB%E7%BB%93/" title="第7周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第7周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/04/10/%E7%AC%AC6%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/04/10/%E7%AC%AC6%E5%91%A8%E6%80%BB%E7%BB%93/" title="第6周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第6周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/04/03/%E7%AC%AC5%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/04/03/%E7%AC%AC5%E5%91%A8%E6%80%BB%E7%BB%93/" title="第5周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第5周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/03/29/%E7%AC%AC4%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/03/29/%E7%AC%AC4%E5%91%A8%E6%80%BB%E7%BB%93/" title="第4周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第4周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/03/20/%E7%AC%AC3%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/03/20/%E7%AC%AC3%E5%91%A8%E6%80%BB%E7%BB%93/" title="第3周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第3周总结</span>
         </a>
       
     
       
       
-        <a href="/2022/03/13/%E7%AC%AC2%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/03/13/%E7%AC%AC2%E5%91%A8%E6%80%BB%E7%BB%93/" title="第2周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第2周总结</span>
         </a>
       
@@ -375,20 +473,25 @@
   
     
     
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="碎碎念"
         id="heading-0e9c81a4c01a64c2df164e8cd1832f2f" role="tab" data-toggle="collapse" href="#collapse-0e9c81a4c01a64c2df164e8cd1832f2f"
         aria-expanded="false"
       >
         碎碎念
+        <span class="list-group-count"></span>
         <i class="iconfont icon-arrowright"></i>
       </a>
-      <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>7</span>
-      </a>
-      <div class="category-collapse collapse" id="collapse-0e9c81a4c01a64c2df164e8cd1832f2f" role="tabpanel" aria-labelledby="heading-0e9c81a4c01a64c2df164e8cd1832f2f">
+      
+        <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>7</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-0e9c81a4c01a64c2df164e8cd1832f2f"
+           role="tabpanel" aria-labelledby="heading-0e9c81a4c01a64c2df164e8cd1832f2f">
         
         
           
@@ -397,49 +500,63 @@
     
       
       
-        <a href="/2022/05/04/2022-5-4/" class="list-group-item list-group-item-action">
+        <a href="/2022/05/04/2022-5-4/" title="2022.5.4"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">2022.5.4</span>
         </a>
       
     
       
       
-        <a href="/2022/05/02/2022-5-2/" class="list-group-item list-group-item-action">
+        <a href="/2022/05/02/2022-5-2/" title="2022.5.2"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">2022.5.2</span>
         </a>
       
     
       
       
-        <a href="/2022/04/21/2022-4-21/" class="list-group-item list-group-item-action">
+        <a href="/2022/04/21/2022-4-21/" title="2022.4.21"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">2022.4.21</span>
         </a>
       
     
       
       
-        <a href="/2022/03/17/%E5%BC%80%E5%AD%A6%E5%8F%8D%E6%80%9D%E5%92%8C%E5%90%8E%E7%BB%AD%E8%AE%A1%E5%88%92/" class="list-group-item list-group-item-action">
+        <a href="/2022/03/17/%E5%BC%80%E5%AD%A6%E5%8F%8D%E6%80%9D%E5%92%8C%E5%90%8E%E7%BB%AD%E8%AE%A1%E5%88%92/" title="开学反思和后续计划"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">开学反思和后续计划</span>
         </a>
       
     
       
       
-        <a href="/2022/01/15/2022-1-15/" class="list-group-item list-group-item-action">
+        <a href="/2022/01/15/2022-1-15/" title="2022.1.15"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">2022.1.15</span>
         </a>
       
     
       
       
-        <a href="/2022/01/13/%E5%A4%A7%E4%B8%89%E4%B8%8A%E6%80%BB%E7%BB%93%EF%BC%8C%E5%88%B0%E5%BC%80%E5%AD%A6%E5%89%8D%E5%AE%89%E6%8E%92/" class="list-group-item list-group-item-action">
+        <a href="/2022/01/13/%E5%A4%A7%E4%B8%89%E4%B8%8A%E6%80%BB%E7%BB%93%EF%BC%8C%E5%88%B0%E5%BC%80%E5%AD%A6%E5%89%8D%E5%AE%89%E6%8E%92/" title="大三上总结，到开学前安排"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">大三上总结，到开学前安排</span>
         </a>
       
     
       
       
-        <a href="/2021/12/10/2021-12-10/" class="list-group-item list-group-item-action">
+        <a href="/2021/12/10/2021-12-10/" title="2021.12.10"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">2021.12.10</span>
         </a>
       
@@ -452,20 +569,25 @@
   
     
     
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="杂"
         id="heading-0cdf25f93ffb2c8c342c14216f6b47e8" role="tab" data-toggle="collapse" href="#collapse-0cdf25f93ffb2c8c342c14216f6b47e8"
         aria-expanded="false"
       >
         杂
+        <span class="list-group-count"></span>
         <i class="iconfont icon-arrowright"></i>
       </a>
-      <a href="/categories/%E6%9D%82/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>3</span>
-      </a>
-      <div class="category-collapse collapse" id="collapse-0cdf25f93ffb2c8c342c14216f6b47e8" role="tabpanel" aria-labelledby="heading-0cdf25f93ffb2c8c342c14216f6b47e8">
+      
+        <a href="/categories/%E6%9D%82/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>3</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-0cdf25f93ffb2c8c342c14216f6b47e8"
+           role="tabpanel" aria-labelledby="heading-0cdf25f93ffb2c8c342c14216f6b47e8">
         
         
           
@@ -474,21 +596,27 @@
     
       
       
-        <a href="/2022/05/16/%E7%AC%AC11%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/05/16/%E7%AC%AC11%E5%91%A8%E6%80%BB%E7%BB%93/" title="第11周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">第11周总结</span>
         </a>
       
     
       
       
-        <a href="/2021/10/19/%E6%9C%80%E8%BF%91/" class="list-group-item list-group-item-action">
+        <a href="/2021/10/19/%E6%9C%80%E8%BF%91/" title="最近"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">最近</span>
         </a>
       
     
       
       
-        <a href="/2021/10/13/%E5%A4%A7%E4%B8%89%E8%A7%84%E5%88%92/" class="list-group-item list-group-item-action">
+        <a href="/2021/10/13/%E5%A4%A7%E4%B8%89%E8%A7%84%E5%88%92/" title="大三规划"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">大三规划</span>
         </a>
       
@@ -501,20 +629,25 @@
   
     
     
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="大三寒假"
         id="heading-3b643800500d51c8449d54e6759b919d" role="tab" data-toggle="collapse" href="#collapse-3b643800500d51c8449d54e6759b919d"
         aria-expanded="false"
       >
         大三寒假
+        <span class="list-group-count"></span>
         <i class="iconfont icon-arrowright"></i>
       </a>
-      <a href="/categories/%E5%A4%A7%E4%B8%89%E5%AF%92%E5%81%87/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>2</span>
-      </a>
-      <div class="category-collapse collapse" id="collapse-3b643800500d51c8449d54e6759b919d" role="tabpanel" aria-labelledby="heading-3b643800500d51c8449d54e6759b919d">
+      
+        <a href="/categories/%E5%A4%A7%E4%B8%89%E5%AF%92%E5%81%87/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>2</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-3b643800500d51c8449d54e6759b919d"
+           role="tabpanel" aria-labelledby="heading-3b643800500d51c8449d54e6759b919d">
         
         
           
@@ -523,14 +656,18 @@
     
       
       
-        <a href="/2022/02/15/%E5%AF%92%E5%81%87%E8%BF%87%E5%8D%8A%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/02/15/%E5%AF%92%E5%81%87%E8%BF%87%E5%8D%8A%E6%80%BB%E7%BB%93/" title="寒假过半总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">寒假过半总结</span>
         </a>
       
     
       
       
-        <a href="/2022/01/27/%E5%9B%9E%E5%AE%B6%E7%AC%AC%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" class="list-group-item list-group-item-action">
+        <a href="/2022/01/27/%E5%9B%9E%E5%AE%B6%E7%AC%AC%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" title="回家第一周总结"
+           class="list-group-item list-group-item-action
+           ">
           <span class="category-post">回家第一周总结</span>
         </a>
       
@@ -542,6 +679,7 @@
     </div>
   
 </div>
+
 
               </div>
             </div>
@@ -570,60 +708,37 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
     </div>
   </div>
 </div>
+
     
 
     
   </main>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
+  <footer>
+    <div class="footer-inner">
   
-  <div class="statistics">
-    
-    
-
-    
-      
-        <!-- LeanCloud 统计PV -->
-        <span id="leancloud-site-pv-container" style="display: none">
-            总访问量 
-            <span id="leancloud-site-pv"></span>
-             次
-          </span>
-      
-      
-        <!-- LeanCloud 统计UV -->
-        <span id="leancloud-site-uv-container" style="display: none">
-            总访客数 
-            <span id="leancloud-site-uv"></span>
-             人
-          </span>
-      
-
-    
-  </div>
-
-
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
   
-
   
-</footer>
-
-
-  <!-- SCRIPTS -->
   
-  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
   <script>
     NProgress.configure({"showSpinner":false,"trickleSpeed":100})
@@ -634,42 +749,23 @@
   </script>
 
 
-<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
-<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-<!-- Plugins -->
 
-
-  <script  src="/js/local-search.js" ></script>
-
-
-
-  
-    <script  src="/js/img-lazyload.js" ></script>
-  
-
-
-
-  
-
-
-
-
-
-
-  <script defer src="/js/leancloud.js" ></script>
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
   <script>
     (function (window, document) {
       var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
       
-      typing(title)
+        typing(text);
       
     })(window, document);
   </script>
@@ -679,31 +775,28 @@
 
 
 
-
-
-
-
-
-
   
-
-  
-
-  
-
-  
-
-  
-
+    <script  src="/js/img-lazyload.js" ></script>
   
 
 
 
 
+  <script  src="/js/local-search.js" ></script>
 
-<!-- 主题的启动项 保持在最底部 -->
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
 
 
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>

@@ -7,16 +7,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="Arance的博客">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <meta name="description" content="Arance的博客">
+  
+    <meta name="description" content="Arance的博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Arance">
 <meta property="og:url" content="http://example.com/page/2/index.html">
@@ -26,41 +26,65 @@
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
+  
+  
   <title>Arance</title>
 
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
 
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
 
 
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
 
 
 <link  rel="stylesheet" href="/css/main.css" />
 
-<!-- 自定义样式保持在最底部 -->
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
 
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"pwe7xMxRmMCjRBcR8giVtbz9-gzGzoHsz","app_key":"mKXiVXzWIodSCDJ5V5A0BzmK","server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.0","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
+
+  
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
 <body>
-  <header style="height: 100vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Arance的博客</strong>
+      <strong>Fluid</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -114,6 +138,18 @@
           
           
             <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
                 关于
@@ -127,6 +163,7 @@
               &nbsp;<i class="iconfont icon-search"></i>&nbsp;
             </a>
           </li>
+          
         
         
           <li class="nav-item" id="color-toggle-btn">
@@ -139,34 +176,40 @@
   </div>
 </nav>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="努力的人最耀眼！">
-              
-            </span>
+  
 
-            
-          </div>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
           
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
           
         </div>
+
+        
       </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
     </div>
+  </div>
+</div>
+
+</div>
+
   </header>
 
   <main>
     
       <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          style=margin-top:0>
+        <div id="board"
+          style="margin-top: 0">
           
           <div class="container">
             <div class="row">
@@ -180,26 +223,125 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
+        <a href="/2022/04/10/%E7%AC%AC6%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+          第6周总结
+        </a>
+      </h1>
+
+      <a class="index-excerpt" href="/2022/04/10/%E7%AC%AC6%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
+          
+          这一周过的比较充实，英语，项目，学习，身体都坚持下来了。 不过每天起来还是比较晚，下周坚持早起背单词+早饭。 晚上跑步时间可以增加一下。 单词量可以增加一下。 加快学习torch和吴恩达的课。
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-10 18:50" pubdate>
+              2022-04-10
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-chain-item">大三下</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/03/%E7%AC%AC5%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+          第5周总结
+        </a>
+      </h1>
+
+      <a class="index-excerpt" href="/2022/04/03/%E7%AC%AC5%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
+          
+          上课好好听了，阅读和听力基本上坚持下来了 单词好好背了 有氧和力量训练都做了 回了躺家，吃了点好吃的 接触了一个搞项目的，深度学习，抓住这个机会好好学习一波，不过居然是个女的，交流不方便 下周坚持，继续加油！
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-03 23:40" pubdate>
+              2022-04-03
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-chain-item">大三下</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
         <a href="/2022/03/29/%E7%AC%AC4%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
           第4周总结
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/03/29/%E7%AC%AC4%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+      <a class="index-excerpt" href="/2022/03/29/%E7%AC%AC4%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
           
-          
-            
-          
-          单词背了
-运动做了
-课听了
-就是听力没听……
-想的有点多
-满分10分我给5分
-
-        </a>
-      </p>
+          单词背了 运动做了 课听了 就是听力没听…… 想的有点多 满分10分我给5分
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -211,11 +353,25 @@
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/">大三下</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-chain-item">大三下</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -234,28 +390,12 @@
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/03/20/%E7%AC%AC3%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+      <a class="index-excerpt" href="/2022/03/20/%E7%AC%AC3%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
           
-          
-            
-          
-          这周状态开始逐渐恢复了，校赛也成功办完了，报销也提交了，可以说没啥要忙的了。
-单词有子背，不过有点水，其次阅读也是三天打鱼两天晒网，这周得好好努力，坚持下来。
-听力也得开始了，然后编程方面也开始恢复了，通过对一些常规代码的学习，进步的也很快。
-这周给自己打80分
-下周目标
-
-单词坚持
-跑步or跳绳
-阅读+听力
-认真上网课
-代码好好敲
-
-believe yourself and be brave
-
-        </a>
-      </p>
+          这周状态开始逐渐恢复了，校赛也成功办完了，报销也提交了，可以说没啥要忙的了。 单词有子背，不过有点水，其次阅读也是三天打鱼两天晒网，这周得好好努力，坚持下来。 听力也得开始了，然后编程方面也开始恢复了，通过对一些常规代码的学习，进步的也很快。 这周给自己打80分 下周目标  单词坚持 跑步or跳绳 阅读+听力 认真上网课 代码好好敲  believe yourself and be brave
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -267,11 +407,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/">大三下</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-chain-item">大三下</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -290,22 +444,12 @@ believe yourself and be brave
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/03/17/%E5%BC%80%E5%AD%A6%E5%8F%8D%E6%80%9D%E5%92%8C%E5%90%8E%E7%BB%AD%E8%AE%A1%E5%88%92/" target="_self">
+      <a class="index-excerpt" href="/2022/03/17/%E5%BC%80%E5%AD%A6%E5%8F%8D%E6%80%9D%E5%92%8C%E5%90%8E%E7%BB%AD%E8%AE%A1%E5%88%92/" target="_self">
+        <div>
           
-          
-            
-          
-          开学到现在是第三周了，从考完试到现在基本上没怎么学，问题很大，浪费了很多时间。
-现在梳理一下要干的事情：1.英语
-2.赶上各门课程的进度+完成作业
-3.准备校赛，以后后续的工作
-4.锻炼
-分析：首先这是保研的最后一学期了，我应该在这学期提高英语水平，保持绩点，学习py，搞搞神经网络。因此这学期还是很重要的。
-解决途径：1.不折不扣的每天背一个小时单词+做阅读一篇，一周一套听力
-2.少打游戏多听课+
-        </a>
-      </p>
+          开学到现在是第三周了，从考完试到现在基本上没怎么学，问题很大，浪费了很多时间。 现在梳理一下要干的事情：1.英语 2.赶上各门课程的进度+完成作业 3.准备校赛，以后后续的工作 4.锻炼 分析：首先这是保研的最后一学期了，我应该在这学期提高英语水平，保持绩点，学习py，搞搞神经网络。因此这学期还是很重要的。 解决途径：1.不折不扣的每天背一个小时单词+做阅读一篇，一周一套听力 2.少打游戏多听课+
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -317,11 +461,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" class="category-chain-item">碎碎念</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -340,25 +498,12 @@ believe yourself and be brave
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/03/13/%E7%AC%AC2%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+      <a class="index-excerpt" href="/2022/03/13/%E7%AC%AC2%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
           
-          
-            
-          
-           开学的第二周，上课的第一周，除了网课编译原理外，其他课都有好好听
-每天都坚持跑步了，单词背的妈妈虎虎
-三门考试出来了俩门，计组92，数据库96，考的还可以，希望计网也有一个不错的成绩
-后续计划
-单词每天100+
-跑步有氧+哑铃无氧
-认真看网课+作业
-开始深度学习，理论+实践
-
-加油，最后一学期了，维持绩点，看能不能把国奖给安排了，做点项目，六级考个好分数
-
-        </a>
-      </p>
+          开学的第二周，上课的第一周，除了网课编译原理外，其他课都有好好听 每天都坚持跑步了，单词背的妈妈虎虎 三门考试出来了俩门，计组92，数据库96，考的还可以，希望计网也有一个不错的成绩 后续计划 单词每天100+ 跑步有氧+哑铃无氧 认真看网课+作业 开始深度学习，理论+实践  加油，最后一学期了，维持绩点，看能不能把国奖给安排了，做点项目，六级考个好分数
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -370,11 +515,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/">大三下</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8B/" class="category-chain-item">大三下</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -393,27 +552,12 @@ believe yourself and be brave
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/02/15/%E5%AF%92%E5%81%87%E8%BF%87%E5%8D%8A%E6%80%BB%E7%BB%93/" target="_self">
+      <a class="index-excerpt" href="/2022/02/15/%E5%AF%92%E5%81%87%E8%BF%87%E5%8D%8A%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
           
-          
-            
-          
-          
-学习方面
-对人工智能有了个基本的认识，单词隔三岔五的背,复习了，但又没完全复习
-
-运动方面
-每天都有坚持跳绳，脸比以前瘦多来，也开始注重护肤了
-
-生活方面
-出去玩的很开心，人果然是群居性的动物呢
-总的来说还行吧，至少没有完全虚度光阴
-
-
-
-        </a>
-      </p>
+          学习方面 对人工智能有了个基本的认识，单词隔三岔五的背,复习了，但又没完全复习  运动方面 每天都有坚持跳绳，脸比以前瘦多来，也开始注重护肤了  生活方面 出去玩的很开心，人果然是群居性的动物呢 总的来说还行吧，至少没有完全虚度光阴
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -425,11 +569,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E5%AF%92%E5%81%87/">大三寒假</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E5%AF%92%E5%81%87/" class="category-chain-item">大三寒假</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -448,27 +606,12 @@ believe yourself and be brave
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/01/27/%E5%9B%9E%E5%AE%B6%E7%AC%AC%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+      <a class="index-excerpt" href="/2022/01/27/%E5%9B%9E%E5%AE%B6%E7%AC%AC%E4%B8%80%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
+        <div>
           
-          
-            
-          
-          回家一周了，和想象中的生活有点区别，但也不错。
-坚持跳绳！
-坚持吃早饭！
-英语断断续续的买单词了，这点不行。
-吃了好几顿好吃的。
-但这段时间过的有点空虚，从下周开始必需得给自己找点事干，让自己充实起来。
-目前想法是这样：
-单词+健身是固定的，雷打不动。
-然后把画时间把手写数字识别给整完。
-完了开始复习下学期要学的东西。
-假期感觉也不是很长啊。下个月25左右就得回学校了，呜呜呜。
-寒假，我滴寒假。
-
-        </a>
-      </p>
+          回家一周了，和想象中的生活有点区别，但也不错。 坚持跳绳！ 坚持吃早饭！ 英语断断续续的买单词了，这点不行。 吃了好几顿好吃的。 但这段时间过的有点空虚，从下周开始必需得给自己找点事干，让自己充实起来。 目前想法是这样： 单词+健身是固定的，雷打不动。 然后把画时间把手写数字识别给整完。 完了开始复习下学期要学的东西。 假期感觉也不是很长啊。下个月25左右就得回学校了，呜呜呜。 寒假，我滴寒假。
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -480,11 +623,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E5%AF%92%E5%81%87/">大三寒假</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A7%E4%B8%89%E5%AF%92%E5%81%87/" class="category-chain-item">大三寒假</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -503,21 +660,12 @@ believe yourself and be brave
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/01/15/2022-1-15/" target="_self">
+      <a class="index-excerpt" href="/2022/01/15/2022-1-15/" target="_self">
+        <div>
           
-          
-            
-          
-          本来好好的，打算随便学学数据分析等放假了。甚至比起周围的人，自己每天都有学习，锻炼，饮食也比较规律，比较沾沾自喜。认为自己还比较自律。
-但是人比人，比不了，当我在混日子时候，有的人在和老师搞项目，有的人在准备雅思，托福，还有的人在为发论文做准备，而我呢，像一滩死水一样。
-还不是时候，还得卷，为了让自己的一天过的充实，制定每日必须完成的任务。
-
-一日三餐，蛋白质，碳水，维生素
-
-每天跳绳，胸or腹一
-        </a>
-      </p>
+          本来好好的，打算随便学学数据分析等放假了。甚至比起周围的人，自己每天都有学习，锻炼，饮食也比较规律，比较沾沾自喜。认为自己还比较自律。 但是人比人，比不了，当我在混日子时候，有的人在和老师搞项目，有的人在准备雅思，托福，还有的人在为发论文做准备，而我呢，像一滩死水一样。 还不是时候，还得卷，为了让自己的一天过的充实，制定每日必须完成的任务。  一日三餐，蛋白质，碳水，维生素  每天跳绳，胸or腹一
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -529,11 +677,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
-            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" class="category-chain-item">碎碎念</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
           </div>
         
         
@@ -552,25 +714,12 @@ believe yourself and be brave
         </a>
       </h1>
 
-      <p class="index-excerpt">
-        <a href="/2022/01/13/%E5%A4%A7%E4%B8%89%E4%B8%8A%E6%80%BB%E7%BB%93%EF%BC%8C%E5%88%B0%E5%BC%80%E5%AD%A6%E5%89%8D%E5%AE%89%E6%8E%92/" target="_self">
+      <a class="index-excerpt" href="/2022/01/13/%E5%A4%A7%E4%B8%89%E4%B8%8A%E6%80%BB%E7%BB%93%EF%BC%8C%E5%88%B0%E5%BC%80%E5%AD%A6%E5%89%8D%E5%AE%89%E6%8E%92/" target="_self">
+        <div>
           
-          
-            
-          
-          这学期过的好快啊，转眼间，以及快结束了。
-总的来说，这学期还可以，绩点提高了好多，现在是4.21，有了第一个女朋友，健身有一点点效果，单词有在好好背，如果六级能过那就再好不过了。
-对自己说
-干得漂亮，李正曦
-后续，坚持锻炼，坚持英语。
-然后把数据分析，数据挖掘学一学。
-熟练py的一些语法。
-然后复习没考完的三门课，争取满绩，直接把绩点拉满。
-咬咬牙，最后一个学期了。
-付出就会有回报。
-
-        </a>
-      </p>
+          这学期过的好快啊，转眼间，以及快结束了。 总的来说，这学期还可以，绩点提高了好多，现在是4.21，有了第一个女朋友，健身有一点点效果，单词有在好好背，如果六级能过那就再好不过了。 对自己说 干得漂亮，李正曦 后续，坚持锻炼，坚持英语。 然后把数据分析，数据挖掘学一学。 熟练py的一些语法。 然后复习没考完的三门课，争取满绩，直接把绩点拉满。 咬咬牙，最后一个学期了。 付出就会有回报。
+        </div>
+      </a>
 
       <div class="index-btm post-metas">
         
@@ -582,106 +731,25 @@ believe yourself and be brave
           </div>
         
         
-          <div class="post-meta mr-3">
+          <div class="post-meta mr-3 d-flex align-items-center">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
-            
-          </div>
-        
-        
-      </div>
-    </article>
-  </div>
 
-  <div class="row mx-auto index-card">
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" class="category-chain-item">碎碎念</a>
+  
+  
+
+      </span>
     
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/01/13/%E7%AC%AC19%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
-          第19周总结
-        </a>
-      </h1>
+  
+</span>
 
-      <p class="index-excerpt">
-        <a href="/2022/01/13/%E7%AC%AC19%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
-          
-          
-            
-          
-          这周完成了网络的课设，剩下时间处于复习与不复习的量子态，最后考试推迟到春季学期开学考，麻了，白复习了。
-但好在开始坚持在宿舍锻炼了。
-这学期算是结束了吧，就等着放假回家了。
-
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-01-13 13:35" pubdate>
-              2022-01-13
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-category"></i>
-            
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a>
-            
-          </div>
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/01/02/%E7%AC%AC17%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
-          第17周总结
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2022/01/02/%E7%AC%AC17%E5%91%A8%E6%80%BB%E7%BB%93/" target="_self">
-          
-          
-            
-          
-          疫情在宿舍的一周，摸鱼复习，课设，打游戏。
-运动少了，学习时间也少了。
-感觉有点浪费时间了。
-下周开始，恢复学习作息，坚持运动，坚持背单词。
-课设好好弄，好好复习。
-给这学期画上完美的句号。
-
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-01-02 22:55" pubdate>
-              2022-01-02
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-category"></i>
-            
-              <a href="/categories/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a>
-            
           </div>
         
         
@@ -726,60 +794,37 @@ believe yourself and be brave
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
     </div>
   </div>
 </div>
+
     
 
     
   </main>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
+  <footer>
+    <div class="footer-inner">
   
-  <div class="statistics">
-    
-    
-
-    
-      
-        <!-- LeanCloud 统计PV -->
-        <span id="leancloud-site-pv-container" style="display: none">
-            总访问量 
-            <span id="leancloud-site-pv"></span>
-             次
-          </span>
-      
-      
-        <!-- LeanCloud 统计UV -->
-        <span id="leancloud-site-uv-container" style="display: none">
-            总访客数 
-            <span id="leancloud-site-uv"></span>
-             人
-          </span>
-      
-
-    
-  </div>
-
-
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
   
-
   
-</footer>
-
-
-  <!-- SCRIPTS -->
   
-  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
   <script>
     NProgress.configure({"showSpinner":false,"trickleSpeed":100})
@@ -790,42 +835,23 @@ believe yourself and be brave
   </script>
 
 
-<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
-<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-<!-- Plugins -->
 
-
-  <script  src="/js/local-search.js" ></script>
-
-
-
-  
-    <script  src="/js/img-lazyload.js" ></script>
-  
-
-
-
-  
-
-
-
-
-
-
-  <script defer src="/js/leancloud.js" ></script>
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
   <script>
     (function (window, document) {
       var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
       
-      typing(title)
+        typing(text);
       
     })(window, document);
   </script>
@@ -835,31 +861,28 @@ believe yourself and be brave
 
 
 
-
-
-
-
-
-
   
-
-  
-
-  
-
-  
-
-  
-
+    <script  src="/js/img-lazyload.js" ></script>
   
 
 
 
 
+  <script  src="/js/local-search.js" ></script>
 
-<!-- 主题的启动项 保持在最底部 -->
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
 
 
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
