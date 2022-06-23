@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Motor_Imagery_BCI</title>
+    <link href="/2022/06/23/Motor-Imagery-BCI/"/>
+    <url>/2022/06/23/Motor-Imagery-BCI/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Algorithm-Contest-of-Calibration‐free-Motor-Imagery-BCI-in-the-BCI-Robot-Contest-in-World-Robot-Conference-Contest-2021-A-survey"><a href="#Algorithm-Contest-of-Calibration‐free-Motor-Imagery-BCI-in-the-BCI-Robot-Contest-in-World-Robot-Conference-Contest-2021-A-survey" class="headerlink" title="Algorithm Contest of Calibration‐free Motor Imagery BCI in the BCI Robot Contest in World Robot Conference Contest 2021_ A survey"></a>Algorithm Contest of Calibration‐free Motor Imagery BCI in the BCI Robot Contest in World Robot Conference Contest 2021_ A survey</h1><h4 id="作者"><a href="#作者" class="headerlink" title="作者"></a>作者</h4><p>Jing Luo , Qi Mao, Yaojie Wang, Zhenghao Shi, Xinhong Hei </p><h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><p>介绍了下比赛，队伍使用的算法，得益于深度学习的发展，成绩好的队伍多使用卷积网络</p><h4 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h4><h6 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h6><p>详细介绍了下比赛类别，然后介绍MI的有关信息，简单，灵活，有较高的应用价值</p><p>重点的研究工作有三个</p><ul><li>用来收集脑电信号的设备和技术</li><li>特征提取的方法</li><li>分类器的训练</li></ul><p>研究分为三类</p><ul><li>基于频域特征</li><li>基于CSP</li><li>基于深度学习</li></ul><p>然后提到了朴素贝叶斯，动态频率特征选择算法 </p><p>然后开始介绍卷积神经网络</p><p>从最开始的，到后面的独立于主题的运动想象BCI的深度卷积神经网络框架 </p><h6 id="实验数据和介绍"><a href="#实验数据和介绍" class="headerlink" title="实验数据和介绍"></a>实验数据和介绍</h6><p>介绍了比赛的采样规则，采样设备等</p><p>介绍了排名靠前的选手的通道选择，大部分选择0~58通道，有些是手动选择通道，滤波方面大家也都是不同的选择</p><p>分类器基本上都是采用了EEGNET只是版本有一些不同，都是BCT形状组织（批次，通道，采样点数）</p><p>数据增强的手段，滑动窗口，左右互换等</p><p>后面就是说一些比赛结果，以及计分规则之类的东西</p><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>文章系统的介绍了这个比赛，着重介绍了运动想象这个赛题，从一开始的模型选择，到数据预处理，以及分类器的训练等等</p><p>也提出了时间对于最后分数的重要性，比赛又规定最小时间是0.5s，所以基本上所有队伍都使用了最小时间作为数据提取的时间。</p><h4 id="新概念"><a href="#新概念" class="headerlink" title="新概念"></a>新概念</h4><p>EEG  analysis：脑电图分析</p><p>PSD，power  spectral  density ：功率谱密度</p><p>covariance  matrix ：协方差矩阵</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>论文阅读</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>大三下-第16周总结</title>
     <link href="/2022/06/14/%E5%A4%A7%E4%B8%89%E4%B8%8B-%E7%AC%AC16%E5%91%A8%E6%80%BB%E7%BB%93/"/>
     <url>/2022/06/14/%E5%A4%A7%E4%B8%89%E4%B8%8B-%E7%AC%AC16%E5%91%A8%E6%80%BB%E7%BB%93/</url>
